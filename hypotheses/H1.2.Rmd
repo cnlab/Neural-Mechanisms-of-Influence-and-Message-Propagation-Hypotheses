@@ -1,0 +1,45 @@
+---
+title: "H1.2"
+author: '@darpa_study_team'
+date: "10/12/2017"
+output: 
+  github_document:
+    html_preview: true
+params:
+  summary: FALSE 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r include=FALSE, ECHO=FALSE}
+mentalizing<-read.csv("../data/SHARE/ROIs/mentalizing.csv")
+ego_betweenness<-read.csv("../data/IndividualDifferenceMeasures/ego_betweeness_groups.csv")
+df_combined_ment<-merge(mentalizing,ego_betweenness,by.x=c("Scan_ID"),by.y=c("pID"))
+individual_differences<-read.csv("../data/IndividualDifferenceMeasures/DARPA1_Complete_Survey_Data_Scales_updated.csv")
+df_combined_ment<-merge(individual_differences,df_combined_ment,by.x=c("pID"),by.y=c("Scan_ID"))
+language<-read.csv("../data/SHARE/LanguageAnalysis/DARPA1_Language_In_Out_LIWC.csv")
+
+reward<-read.csv("../data/SHARE/ROIs/kable_vmpfc_striatum.csv")
+
+df_combined_reward<-merge(reward,ego_betweenness,by.x=c("Scan_ID"),by.y=c("pID"))
+
+
+df_combined_reward<-merge(individual_differences,df_combined_reward,by.x=c("pID"),by.y=c("Scan_ID"))
+
+language_id<-merge(language,individual_differences,by=c("pID"))
+```
+
+| `r ifelse(params$summary,'','Hypothesis') ` |  `r ifelse(params$summary,'','Result') ` |
+| --------------------------------------------------- | --- |
+| **H1.2**: Those with higher ego betweenness centrality will show higher activity in the mentalizing system when reading article abstracts and while making sharing decisions in the Sharing Task than those with lower ego betweenness centrality (Contrasts: Sharing conditions [broad- & narrowcasting] vs. no sharing conditions [self and topic conditions]). | Not Significant |
+
+
+
+
+
+```{r, eval=params$summary}
+summary(lm(SHAREvsNONSHARE_reading~ego,data=df_combined_ment))
+```
+
