@@ -1,5 +1,4 @@
 ---
-title: "H1.2"
 author: '@darpa_study_team'
 date: "10/12/2017"
 output: 
@@ -7,13 +6,19 @@ output:
     html_preview: true
     toc: true
 params:
-  summary: TRUE 
+  summary: TRUE
+  hnum: 'H1.2'
+  htitle: 'Ego betweenness and mentalizing'
+
+title: "`r paste(params$hnum,'-',params$htitle)`"
+
 ---
 
 ```{r, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
 library(coefplot2)
+library(pander)
 
 ```
 
@@ -61,13 +66,13 @@ stat_str <- paste0('t(',df,')=',tval)
 
 
 
-```{asis, eval=params$summary}
-## Results
 
-### Model - Ego betweenness and mentalizing
+```{r, results='asis', eval=params$summary, echo=FALSE}
+
+pandoc.header("Results", level=2)
+pandoc.header(paste('Model','-',params$htitle), level=3)
 
 ```
-
 
 ```{r, echo=FALSE, eval=params$summary}
 

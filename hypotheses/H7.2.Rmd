@@ -20,7 +20,7 @@ title: "`r paste(params$hnum,'-',params$htitle)`"
 knitr::opts_chunk$set(echo = TRUE)
 
 library(coefplot2)
-
+library(pander)
 ```
 
 ```{r include=FALSE, ECHO=FALSE}
@@ -68,8 +68,6 @@ stat_str <- paste0('t(',df,')=',tval)
 
 
 ```{r, results='asis', eval=params$summary, echo=FALSE}
-
-library(pander)
 
 pandoc.header("Results", level=2)
 pandoc.header(paste('Model','-',params$htitle), level=3)
