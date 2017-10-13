@@ -63,7 +63,7 @@ stat_str <- paste0('t(',df,')=',tval)
 
 | `r ifelse(params$summary,'Hypothesis','') ` |  `r ifelse(params$summary,'Result','') ` |
 | --------------------------------------------------- | --- |
-| `r ifelse(params$summary,paste0('**',params$hnum,'**'),paste0('[**', params$hnum, "**](hypotheses/H5.1.md)'"))`: The higher a participant’s score on the interdependence subscale of the self-construal scale, the more social words (as defined by the LIWC dictionary) the participant will use in their posts/messages for the Sharing Task (Phase 2). | Not Significant  `r stat_str` |
+| `r ifelse(params$summary,'**3.7**','[**3.7**](hypotheses/H3.7.md)')`: The higher a participant’s score on the interdependence subscale of the self-construal scale, the more social words (as defined by the LIWC dictionary) the participant will use in their posts/messages for the Sharing Task (Phase 2). | Not Significant  `r stat_str` |
 
 
 

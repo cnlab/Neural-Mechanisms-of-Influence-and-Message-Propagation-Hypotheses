@@ -96,16 +96,3 @@ Hypotheses
 </tr>
 </tbody>
 </table>
-
-<table style="width:78%;">
-<colgroup>
-<col width="72%" />
-<col width="5%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><a href="hypotheses/H5.1.md">****</a>': Those who score higher on narcissism will use more self-related language (first person singular) when writing Application reviews and Facebook messages in the Application Recommendation (Phase 3) and Sharing Tasks (Phase 2).</td>
-<td>Not Significant t(1558)=1</td>
-</tr>
-</tbody>
-</table>

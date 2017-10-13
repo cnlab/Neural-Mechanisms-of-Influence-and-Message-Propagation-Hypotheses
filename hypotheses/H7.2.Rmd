@@ -63,7 +63,7 @@ stat_str <- paste0('t(',df,')=',tval)
 
 | `r ifelse(params$summary,'Hypothesis','') ` |  `r ifelse(params$summary,'Result','') ` |
 | --------------------------------------------------- | --- |
-| `r ifelse(params$summary,paste0('**',params$hnum,'**'),paste0('[**', params$hnum, "**](hypotheses/H5.1.md)'"))`: Those who score higher on narcissism will use more self-related language (first person singular) when writing Application reviews and Facebook messages in the Application Recommendation (Phase 3) and Sharing Tasks (Phase 2). | Not Significant  `r stat_str` |
+| `r ifelse(params$summary,'**7.2**','[**7.2**](hypotheses/H7.2.md)')`: Those who score higher on narcissism will use more self-related language (first person singular) when writing Application reviews and Facebook messages in the Application Recommendation (Phase 3) and Sharing Tasks (Phase 2). | Not Significant  `r stat_str` |
 
 
 
