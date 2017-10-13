@@ -1,5 +1,5 @@
 ---
-title: "H1.2"
+title: "H3.3"
 author: '@darpa_study_team'
 date: "10/12/2017"
 output: 
@@ -7,7 +7,7 @@ output:
     html_preview: true
     toc: true
 params:
-  summary: TRUE 
+  summary: TRUE
 ---
 
 ```{r, include=FALSE}
@@ -38,7 +38,7 @@ language_id<-merge(language,individual_differences,by=c("pID"))
 
 
 ```{r, echo=FALSE}
-md<-lm(SHAREvsNONSHARE_reading~ego,data=df_combined_ment)
+md<-lm(SHAREvsNONSHARE_reading~scs_inter,data=df_combined_ment)
 
 ctable=coef(summary(md))
 tval<-round(ctable[2,3],3)
@@ -57,14 +57,14 @@ stat_str <- paste0('t(',df,')=',tval)
 
 | `r ifelse(params$summary,'Hypothesis','') ` |  `r ifelse(params$summary,'Result','') ` |
 | --------------------------------------------------- | --- |
-| `r ifelse(params$summary,'**H1.2**','[**H1.2**](hypotheses/H1.2.md)')`: Those with higher ego betweenness centrality will show higher activity in the mentalizing system when reading article abstracts and while making sharing decisions in the Sharing Task than those with lower ego betweenness centrality (Contrasts: Sharing conditions [broad- & narrowcasting] vs. no sharing conditions [self and topic conditions]). | Not Significant `r stat_str` |
+| `r ifelse(params$summary,'**H3.3**','[**H3.3**](hypotheses/H3.3.md)')`: The higher a participant’s score on the interdependence subscale of the self-construal scale, the stronger the activation in the mentalizing system and the more self-other overlap in the ventral-dorsal gradient of self/other-related MPFC activation when making sharing decisions in the Sharing Task (Contrast: Sharing vs. no sharing conditions). | Not Significant (self/other gradient not tested) `r stat_str` |
 
 
 
 ```{asis, eval=params$summary}
 ## Results
 
-### Model - Ego betweenness and mentalizing
+### Model - Interdependence and mentalizing
 
 ```
 
