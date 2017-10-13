@@ -30,3 +30,5 @@ library('knitr')
 ```{r child="hypotheses/H5.1.rmd"}
 ```
 
+```{r child="hypotheses/H7.2.rmd"}
+```
