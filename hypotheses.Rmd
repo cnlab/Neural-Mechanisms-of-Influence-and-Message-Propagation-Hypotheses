@@ -14,6 +14,8 @@ library('knitr')
 
 ## Hypotheses
 
+```{r child="hypotheses/H1.1.rmd"}
+```
 
 ```{r child="hypotheses/H1.2.rmd"}
 ```
