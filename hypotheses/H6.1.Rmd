@@ -1,0 +1,87 @@
+---
+title: "H6.1"
+author: '@darpa_study_team'
+date: "10/12/2017"
+output: 
+  github_document:
+    html_preview: true
+    toc: true
+params:
+  summary: TRUE
+  hnum: "H6.1"
+  htitle: "Value of expression and sharing behavior"
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(coefplot2)
+
+```
+
+```{r include=FALSE, ECHO=FALSE}
+mentalizing<-read.csv("../data/SHARE/ROIs/mentalizing.csv")
+ego_betweenness<-read.csv("../data/IndividualDifferenceMeasures/ego_betweeness_groups.csv")
+df_combined_ment<-merge(mentalizing,ego_betweenness,by.x=c("Scan_ID"),by.y=c("pID"))
+individual_differences<-read.csv("../data/IndividualDifferenceMeasures/DARPA1_Complete_Survey_Data_Scales_updated.csv")
+df_combined_ment<-merge(individual_differences,df_combined_ment,by.x=c("pID"),by.y=c("Scan_ID"))
+language<-read.csv("../data/SHARE/LanguageAnalysis/DARPA1_Language_In_Out_LIWC.csv")
+
+reward<-read.csv("../data/SHARE/ROIs/kable_vmpfc_striatum.csv")
+
+df_combined_reward<-merge(reward,ego_betweenness,by.x=c("Scan_ID"),by.y=c("pID"))
+
+
+df_combined_reward<-merge(individual_differences,df_combined_reward,by.x=c("pID"),by.y=c("Scan_ID"))
+
+language_id<-merge(language,individual_differences,by=c("pID"))
+```
+
+
+
+```{r, echo=FALSE}
+md<-lm(rating~veq,data=language_id)
+
+ctable=coef(summary(md))
+tval<-round(ctable[2,3],3)
+df <- summary(md)$df[2]
+
+stat_str <- paste0('t(',df,')=',tval)
+```
+
+
+```{asis eval=params$summary}
+
+## Hypothesis
+
+```
+
+
+| `r ifelse(params$summary,'Hypothesis','') ` |  `r ifelse(params$summary,'Result','') ` |
+| --------------------------------------------------- | --- |
+| `r ifelse(params$summary,paste0('**',params$hnum,'**'),paste0('[**', params$hnum, "**](hypotheses/H5.1.md)'"))`: The higher a participant places the value of expression, the more likely they are to share articles, irrespective of the audience condition. | Not Significant  `r stat_str` |
+
+
+
+```{asis, eval=params$summary}
+## Results
+
+### Model - Value of expression and sharing behavior
+
+```
+
+
+```{r, echo=FALSE, eval=params$summary}
+
+md$call
+
+round(coeftab(md, clevel=.95, sd=F, p.val=F),1)
+
+coefplot2(md)
+```
+
+
+```{r, echo=FALSE, eval=params$summary}
+summary(md)
+```
+

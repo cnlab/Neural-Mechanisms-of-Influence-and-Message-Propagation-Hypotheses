@@ -9,6 +9,7 @@ params:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library('knitr')
 ```
 
 ## Hypotheses
@@ -21,4 +22,12 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r child="hypotheses/H3.3.rmd"}
 ```
 ```{r child="hypotheses/H3.4.rmd"}
+```
+```{r child="hypotheses/H3.7.rmd"}
+```
+```{r child="hypotheses/H3.8.rmd"}
+```
+```{r child="hypotheses/H5.1.rmd"}
+```
+```{r child="hypotheses/H7.1.rmd"}
 ```

@@ -57,3 +57,55 @@ Hypotheses
 </tr>
 </tbody>
 </table>
+
+<table style="width:78%;">
+<colgroup>
+<col width="72%" />
+<col width="5%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><a href="hypotheses/H5.1.md">****</a>': The higher a participant’s score on the interdependence subscale of the self-construal scale, the more social words (as defined by the LIWC dictionary) the participant will use in their posts/messages for the Sharing Task (Phase 2).</td>
+<td>Not Significant t(1558)=0.627</td>
+</tr>
+</tbody>
+</table>
+
+<table style="width:78%;">
+<colgroup>
+<col width="72%" />
+<col width="5%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><a href="hypotheses/H3.8.md"><strong>H3.8</strong></a>: The lower a participant’s score on the independence subscale of the self-construal scale, the more social words (as defined by the LIWC dictionary) the participant will use in their posts/messages for the Sharing Task (Phase 2).</td>
+<td>Not Significant t(1558)=-0.622</td>
+</tr>
+</tbody>
+</table>
+
+<table style="width:78%;">
+<colgroup>
+<col width="72%" />
+<col width="5%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><a href="hypotheses/H5.1.md"><strong>H5.1</strong></a>: The higher a participant scores on empathy, the more activity will be found in the mentalizing system both when receiving and incorporating peer feedback in the Application Recommendation (Contrasts: peer feedback vs. no peer feedback; peer opinion different vs. peer opinion similar), and when reading and rating article abstracts in the Sharing Task (Contrasts: sharing vs. no sharing conditions).</td>
+<td>Not Significant t(39)=-0.729</td>
+</tr>
+</tbody>
+</table>
+
+<table style="width:78%;">
+<colgroup>
+<col width="72%" />
+<col width="5%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><a href="hypotheses/H5.1.md">****</a>': Those who score higher on narcissism will use more self-related language (first person singular) when writing Application reviews and Facebook messages in the Application Recommendation (Phase 3) and Sharing Tasks (Phase 2).</td>
+<td>Not Significant t(1558)=1</td>
+</tr>
+</tbody>
+</table>
