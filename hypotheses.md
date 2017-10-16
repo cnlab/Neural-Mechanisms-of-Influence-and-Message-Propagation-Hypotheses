@@ -1,4 +1,4 @@
-Pre-registered Hypotheses for DARPA Study on Social Sharing
+Neural Mechanisms of Influence and Message Propagation - Pre-Registered Hypotheses Results
 ================
 @darpa\_study\_team
 10/13/2017
