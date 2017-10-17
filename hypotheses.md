@@ -5,7 +5,7 @@ Neural Mechanisms of Influence and Message Propagation - Pre-Registered Hypothes
 
 The tables below follow the format that the study team used in the original pre-registered hypotheses on Open Science Foundation. The hypotheses are organized by individual difference measures. Please note that this is a work in progress, and updates to this page will be made as we continue to test the remaining hypotheses.
 <br><br>
-<font size=3><strong>Ego Betweenness Centrality:</strong></font>
+<font size=5><strong>Ego Betweenness Centrality:</strong></font>
 <table style="width:78%;">
 <colgroup>
 <col width="70%" />
@@ -35,8 +35,8 @@ The tables below follow the format that the study team used in the original pre-
 ##<strong>Resistance to Peer Influence/Susceptibility to Peer Pressure:</strong>
 <table style="width:78%;">
 <colgroup>
-<col width="72%" />
-<col width="5%" />
+<col width="70%" />
+<col width="7%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -121,7 +121,7 @@ The tables below follow the format that the study team used in the original pre-
 <tbody>
 <tr class="odd">
 <td><a href="hypotheses/H3.4.md"><strong>H3.4</strong></a>: The higher a participant’s score on the independence subscale of the self-construal scale, the stronger the activation in the mentalizing system and the more self-other overlap in the ventral-dorsal gradient of self/other-related MPFC activation when making sharing decisions in the Sharing Task (Contrast: Sharing vs. no sharing conditions).</td>
-<td>Not Significant (self/other gradient not tested) t(39)=-0.584</td>
+<td>Not Significant (self/other gradient not tested)</td>
 </tr>
 </tbody>
 </table>
