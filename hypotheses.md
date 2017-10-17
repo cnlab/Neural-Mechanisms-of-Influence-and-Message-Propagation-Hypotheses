@@ -5,11 +5,11 @@ Neural Mechanisms of Influence and Message Propagation - Pre-Registered Hypothes
 
 The tables below follow the format that the study team used in the original pre-registered hypotheses on Open Science Foundation. The hypotheses are organized by individual difference measures. Please note that this is a work in progress, and updates to this page will be made as we continue to test the remaining hypotheses.
 <br><br>
-##<strong>Ego Betweenness Centrality:</strong>
+<font size=<strong>Ego Betweenness Centrality:</strong>
 <table style="width:78%;">
 <colgroup>
-<col width="72%" />
-<col width="5%" />
+<col width="70%" />
+<col width="7%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -21,8 +21,8 @@ The tables below follow the format that the study team used in the original pre-
 
 <table style="width:78%;">
 <colgroup>
-<col width="72%" />
-<col width="5%" />
+<col width="70%" />
+<col width="7%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -161,7 +161,7 @@ The tables below follow the format that the study team used in the original pre-
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><a href="hypotheses/H3.7.md"><strong>3.7</strong></a>: The higher a participant’s score on the interdependence subscale of the self-construal scale, the more social words (as defined by the LIWC dictionary) the participant will use in their posts/messages for the Sharing Task (Phase 2).</td>
+<td><a href="hypotheses/H3.7.md"><strong>H3.7</strong></a>: The higher a participant’s score on the interdependence subscale of the self-construal scale, the more social words (as defined by the LIWC dictionary) the participant will use in their posts/messages for the Sharing Task (Phase 2).</td>
 <td>Not Significant t(1558)=0.627</td>
 </tr>
 </tbody>
