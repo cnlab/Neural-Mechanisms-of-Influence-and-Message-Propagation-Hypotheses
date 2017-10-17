@@ -66,7 +66,7 @@ stat_str2 <- paste0('t(',df2,')=',tval2)
 
 | `r ifelse(params$summary,'Hypothesis','') ` |  `r ifelse(params$summary,'Result','') ` |
 | --------------------------------------------------- | --- |
-| `r ifelse(params$summary,'**H2.3**','[**H2.3**](hypotheses/H2.3.md)')`: The higher a participant’s score on the resistance to peer influence and/or the lower their score on the susceptibility to peer pressure scale, the lower the activation in the mentalizing system while reading article abstracts and while making sharing decisions in Phase 2 of the Sharing Task (Contrasts: sharing vs. no sharing conditions). | Not Significant `r paste(stat_str1,stat_str2)` |
+| `r ifelse(params$summary,'**H2.3**','[**H2.3**](hypotheses/H2.3.md)')`: The higher a participant's score on the resistance to peer influence and/or the lower their score on the susceptibility to peer pressure scale, the lower the activation in the mentalizing system while reading article abstracts and while making sharing decisions in Phase 2 of the Sharing Task (Contrasts: sharing vs. no sharing conditions). | Not Significant `r paste(stat_str1,stat_str2)` |
 
 
 
