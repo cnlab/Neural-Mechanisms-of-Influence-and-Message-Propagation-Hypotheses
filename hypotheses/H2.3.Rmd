@@ -82,9 +82,9 @@ stat_str2 <- paste0('t(',df2,')=',tval2)
 
 md1$call
 
-round(coeftab(md1, clevel=.95, sd=F, p.val=F),1)
+round(coeftab(md1, clevel=.95, sd=F, p.val=F),10)
 
-coefplot2(md1)
+coefplot2(md1, CI=2, lwd.1=1, col.pts='red', intercept=T)
 ```
 
 
@@ -106,7 +106,7 @@ md2$call
 
 round(coeftab(md2, clevel=.95, sd=F, p.val=F),1)
 
-coefplot2(md2)
+coefplot2(md2, CI=2, lwd.1=1, col.pts='red', intercept=T)
 ```
 
 
