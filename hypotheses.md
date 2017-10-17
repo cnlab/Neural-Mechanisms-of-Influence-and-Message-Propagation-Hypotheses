@@ -3,7 +3,7 @@ Neural Mechanisms of Influence and Message Propagation - Pre-Registered Hypothes
 @StudyTeam
 10/13/2017
 
-The tables below follow the format that the study team used in the original pre-registered hypotheses that is posted on the Open Science Foundation website. The hypotheses are organized by individual difference measures. Please note that this is a work in progress, and updates to this page will be made as we continue to test the remaining hypotheses.
+The tables below follow the format that the study team used in the pre-registered hypotheses that are posted on the Open Science Foundation website. The hypotheses are organized by individual difference measures. Please note that this is a work in progress, and updates to this page will be made as we continue to test the remaining hypotheses.
 <br><br>
 <strong>Ego Betweenness Centrality:</strong>
 <table style="width:78%;">
