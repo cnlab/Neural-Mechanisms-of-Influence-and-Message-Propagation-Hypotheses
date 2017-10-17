@@ -5,7 +5,7 @@ Neural Mechanisms of Influence and Message Propagation - Pre-Registered Hypothes
 
 The tables below follow the format that the study team used in the original pre-registered hypotheses on Open Science Foundation. The hypotheses are organized by individual difference measures. Please note that this is a work in progress, and updates to this page will be made as we continue to test the remaining hypotheses.
 <br><br>
-<font size=<strong>Ego Betweenness Centrality:</strong>
+<font size=3><strong>Ego Betweenness Centrality:</strong></font>
 <table style="width:78%;">
 <colgroup>
 <col width="70%" />
@@ -41,7 +41,7 @@ The tables below follow the format that the study team used in the original pre-
 <tbody>
 <tr class="odd">
 <td><strong>H2.1</strong>: The higher a participant’s score on the resistance to peer influence and/or the lower their score on the susceptibility to peer pressure scale, the lower the likelihood of conformity to peer ratings in trials of contradictive peer feedback (higher and lower conditions) of the Application Recommendation Task.</td>
-<td>Analysis in progress</td>
+<td>In Progress</td>
 </tr>
 </tbody>
 </table>
@@ -54,7 +54,7 @@ The tables below follow the format that the study team used in the original pre-
 <tbody>
 <tr class="odd">
 <td><strong>H2.2</strong>: The higher a participant’s score on the resistance to peer influence and/or the lower their score on the susceptibility to peer pressure scale, the lower the activation in the mentalizing system while receiving peer feedback and while making recommendation decisions in the presence of peer feedback in Phase 2 of the Application Recommendation Task (Contrast: peer feedback vs. no peer feedback conditions).</td>
-<td>Analysis in progress</td>
+<td>In Progress</td>
 </tr>
 </tbody>
 </table>
@@ -81,7 +81,7 @@ The tables below follow the format that the study team used in the original pre-
 <tbody>
 <tr class="odd">
 <td><strong>H3.1</strong>: The higher a participant’s score on the interdependence subscale of the self-construal scale, the stronger the activation in the mentalizing system and the more self-other overlap in the ventral-dorsal gradient of self/other-related MPFC activation when incorporating peer feedback in Phase 2 of the Application Recommendation Task (Contrasts: Peer feedback vs. no peer feedback; peer opinion different vs. similar).</td>
-<td>Analysis in progress</td>
+<td>In Progress</td>
 </tr>
 </tbody>
 </table>
@@ -94,7 +94,7 @@ The tables below follow the format that the study team used in the original pre-
 <tbody>
 <tr class="odd">
 <td><strong>H3.2</strong>: The lower a participant’s score on the independence subscale of the self-construal scale, the stronger the activation in the mentalizing system and the more self-other overlap in the ventral-dorsal gradient of self/other-related MPFC activation when incorporating peer feedback in Phase 2 of the Application Recommendation Task (Contrasts: Peer feedback vs. no peer feedback; peer opinion different vs. similar).</td>
-<td>Analysis in progress</td>
+<td>In Progress</td>
 </tr>
 </tbody>
 </table>
@@ -135,7 +135,7 @@ The tables below follow the format that the study team used in the original pre-
 <tr class="odd">
 <td><strong>H3.5</strong>: The higher a participant’s score on the interdependence subscale of the self-construal scale, the more social words (as defined by the LIWC dictionary) the participant will use in their mobile game app reviews for the Application Recommendation Task (Phase 3). 
 </td>
-<td>Analysis in progress</td>
+<td>In Progress</td>
 </tr>
 </tbody>
 </table>
@@ -149,7 +149,7 @@ The tables below follow the format that the study team used in the original pre-
 <tr class="odd">
 <td><strong>H3.6</strong>: The lower a participant’s score on the independence subscale of the self-construal scale, the more social words (as defined by the LIWC dictionary) the participant will use in their mobile game app reviews for the Application Recommendation Task (Phase 3).
 </td>
-<td>Analysis in progress</td>
+<td>In Progress</td>
 </tr>
 </tbody>
 </table>
