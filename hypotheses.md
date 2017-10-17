@@ -3,9 +3,9 @@ Neural Mechanisms of Influence and Message Propagation - Pre-Registered Hypothes
 @StudyTeam
 10/13/2017
 
-The tables below follow the format that the study team used in the original pre-registered hypotheses on Open Science Foundation. The hypotheses are organized by individual difference measures. Please note that this is a work in progress, and updates to this page will be made as we continue to test the remaining hypotheses.
+The tables below follow the format that the study team used in the original pre-registered hypotheses that is posted on the Open Science Foundation website. The hypotheses are organized by individual difference measures. Please note that this is a work in progress, and updates to this page will be made as we continue to test the remaining hypotheses.
 <br><br>
-<font size=5><strong>Ego Betweenness Centrality:</strong></font>
+<strong>Ego Betweenness Centrality:</strong>
 <table style="width:78%;">
 <colgroup>
 <col width="70%" />
@@ -32,7 +32,7 @@ The tables below follow the format that the study team used in the original pre-
 </tbody>
 </table>
 
-##<strong>Resistance to Peer Influence/Susceptibility to Peer Pressure:</strong>
+<strong>Resistance to Peer Influence/Susceptibility to Peer Pressure:</strong>
 <table style="width:78%;">
 <colgroup>
 <col width="70%" />
@@ -72,7 +72,7 @@ The tables below follow the format that the study team used in the original pre-
 </tbody>
 </table>
 
-##<strong>Self Construal Scale:</strong>
+<strong>Self Construal Scale:</strong>
 <table style="width:78%;">
 <colgroup>
 <col width="72%" />
